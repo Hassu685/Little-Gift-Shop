@@ -29,7 +29,7 @@ export default function InstagramGallery() {
         {posts.map((src, i) => (
           <motion.a
             key={src}
-            href="https://instagram.com"
+            href="https://www.instagram.com/little_gifts_shop44?stkn=czQ1bmxza2p1aGJn"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
