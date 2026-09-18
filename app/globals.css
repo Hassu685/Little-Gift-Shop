@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FBF9FD;
+  color: #30243D;
+}
+
+::selection {
+  background: #B9A1D8;
+  color: #2D2045;
+}
+
+.container-x {
+  @apply mx-auto max-w-[1280px] px-5 sm:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-primary-dark hover:shadow-soft hover:-translate-y-0.5;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-primary/30 bg-white/60 px-7 py-3 text-sm font-medium text-primary backdrop-blur-sm transition-all duration-300 hover:bg-white hover:-translate-y-0.5;
+}
+
+.section-label {
+  @apply font-script text-2xl text-primary/80;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
