@@ -238,7 +238,7 @@ export default function Hero() {
             {trust.map(({ icon: Icon, label, sub }) => (
               <div
                 key={label}
-                className="group flex items-start gap-2.5"
+                className="group flex lg:items-start gap-2.5 items-center"
               >
                 <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/80 bg-white/80 text-[#684487] shadow-sm backdrop-blur-md transition-all duration-300 group-hover:-translate-y-1 group-hover:bg-[#684487] group-hover:text-white">
                   <Icon size={15} />

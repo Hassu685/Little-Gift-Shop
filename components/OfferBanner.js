@@ -53,7 +53,7 @@ export default function OfferBanner() {
       <div className="pointer-events-none absolute inset-y-0 right-0 z-0 hidden w-full lg:block">
 
         <Image
-          src="/images/offer-giftbox.jpg"
+          src="/images/offer-giftbox.png"
           alt=""
           fill
           priority

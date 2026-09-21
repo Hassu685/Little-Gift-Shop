@@ -60,14 +60,14 @@ export default function ContactPage() {
               <MapPin size={17} className="mt-0.5 text-primary" />
               <div>
                 <p className="text-sm font-semibold text-ink">Address</p>
-                <p className="text-sm text-ink/60">Lahore, Pakistan</p>
+                <p className="text-sm text-ink/60">Hyderabad, Pakistan</p>
               </div>
             </div>
             <div className="flex items-start gap-3 rounded-2xl border border-primary/10 bg-white p-5 shadow-card">
               <Clock size={17} className="mt-0.5 text-primary" />
               <div>
                 <p className="text-sm font-semibold text-ink">Hours</p>
-                <p className="text-sm text-ink/60">Mon – Sat: 9AM – 6PM</p>
+                <p className="text-sm text-ink/60">Always – Open</p>
               </div>
             </div>
           </div>
